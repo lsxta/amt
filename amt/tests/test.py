@@ -1719,6 +1719,7 @@ class ServerStreamTest(RealBaseUnitTestClass):
     premium_streamable_urls = [
         ("https://www.funimation.com/shows/bofuri-i-dont-want-to-get-hurt-so-ill-max-out-my-defense/defense-and-first-battle/?lang=japanese", "1019573", "1019574", "1019900"),
         ("https://www.funimation.com/shows/the-irregular-at-magic-high-school/visitor-arc-i/simulcast/?lang=japanese&qid=f290b76b82d5938b", "1079937", "1174339", "1174543"),
+        ("https://www.hidive.com/stream/legend-of-the-galactic-heroes-gaiden/s02e001", "legend-of-the-galactic-heroes-gaiden", None, "s02e001"),
     ]
 
     def test_verify_valid_stream_urls(self):
